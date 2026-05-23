@@ -33,6 +33,7 @@ Note: Free Yahoo Finance data has ~15 min delay. For true real-time (seconds), c
 
 - This project provides a solid foundation for real-time financial forecasting using deep learning. For production, consider using incremental learning (e.g., model.fit with epochs=1 on new data) to avoid full retraining.
 
+### Result
 
 1. Data Fetching: Uses yfinance to get historical closing prices (default 6 months).
 2. Preprocessing: Scales prices to [0,1] range and creates sliding windows of 60 days as input features.
