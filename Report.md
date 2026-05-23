@@ -25,13 +25,13 @@ Note: Free Yahoo Finance data has ~15 min delay. For true real-time (seconds), c
 
 ### Expected Output
 
-· An interactive Plotly chart with:
-  · Blue line = historical prices
-  · Orange dashed line = predicted prices on test set
-  · Red star = next trading day's predicted price
-· Console prints MAE, RMSE, and the prediction value.
+- An interactive Plotly chart with:
+  - Blue line = historical prices
+  - Orange dashed line = predicted prices on test set
+  - Red star = next trading day's predicted price
+- Console prints MAE, RMSE, and the prediction value.
 
-· This project provides a solid foundation for real-time financial forecasting using deep learning. For production, consider using incremental learning (e.g., model.fit with epochs=1 on new data) to avoid full retraining.
+- This project provides a solid foundation for real-time financial forecasting using deep learning. For production, consider using incremental learning (e.g., model.fit with epochs=1 on new data) to avoid full retraining.
 
 
 1. Data Fetching: Uses yfinance to get historical closing prices (default 6 months).
