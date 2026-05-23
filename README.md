@@ -1,11 +1,23 @@
 # Real-Time_Stock_Price
 
-Real-Time Stock Price Prediction Project | Python, LSTM, Data Visualization
+## Real-Time Stock Price Prediction Project | Python, LSTM, Data Visualization
 
 - Developed an end-to-end time-series pipeline using LSTM networks to forecast stock prices at 5-minute intervals.
 - Achieved an RMSE of $2.45 with 88% of predictions falling within 3% of the actual closing price.
 - Optimized model retraining latency to 8 seconds, demonstrating a production-ready approach for low-latency financial forecasting.
 
+## Conclusion
+### Data Visualisation(Graph)
+http://127.0.0.1:34055/
+
+<img width="1314" height="668" alt="Screenshot 2026-05-23 22 49 03" src="https://github.com/user-attachments/assets/e8da72a7-5c98-4edc-98f8-9eaa3d18d790" />
+
+### Model Performance on Test Set:
+- MAE: $16.18
+- RMSE: $16.32
+- Next Trading Day Prediction for AAPL: $290.61
+
+### Run main(real-time-stock).py python file in Terminal/Command prompt
 ```
 kan1mac2ds7@penguin:~$ pip install yfinance tensorflow pandas numpy scikit-learn plotly schedule
   Downloading yfinance-1.4.0-py2.py3-none
@@ -57,7 +69,4 @@ MAE: $16.18
 RMSE: $16.32
 Next Trading Day Prediction for AAPL: $290.61
 ```
-### Data Visualisation(Graph)
-http://127.0.0.1:34055/
 
-<img width="1314" height="668" alt="Screenshot 2026-05-23 22 49 03" src="https://github.com/user-attachments/assets/e8da72a7-5c98-4edc-98f8-9eaa3d18d790" />
