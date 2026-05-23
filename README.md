@@ -13,9 +13,9 @@ http://127.0.0.1:34055/
 <img width="1314" height="668" alt="Screenshot 2026-05-23 22 49 03" src="https://github.com/user-attachments/assets/e8da72a7-5c98-4edc-98f8-9eaa3d18d790" />
 
 ### Model Performance on Test Set:
-- MAE: $16.18
-- RMSE: $16.32
-- Next Trading Day Prediction for AAPL: $290.61
+- MAE: $16.76
+- RMSE: $16.89
+- Next Trading Day Prediction for AAPL: $290.15
 
 ### Run main(real-time-stock).py python file in Terminal/Command prompt
 ```
@@ -68,5 +68,7 @@ Model Performance on Test Set:
 MAE: $16.18
 RMSE: $16.32
 Next Trading Day Prediction for AAPL: $290.61
+
 ```
+<img width="1306" height="651" alt="Result Graph Data Visualisation 2" src="https://github.com/user-attachments/assets/e62656c1-270b-47fe-bb1f-ac6265ad7a8b" />
 
