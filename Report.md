@@ -7,19 +7,19 @@
 
 ### Features
 
-· Fetches real-time (or latest) stock data for any ticker (e.g., AAPL, TSLA)
-· Trains LSTM on historical closing prices
-· Predicts next day's closing price based on last window_size days
-· Visualizes historical prices, predicted vs actual for test set, and latest prediction
-· Optional auto-refresh loop for live monitoring
+- Fetches real-time (or latest) stock data for any ticker (e.g., AAPL, TSLA)
+- Trains LSTM on historical closing prices
+- Predicts next day's closing price based on last window_size days
+- Visualizes historical prices, predicted vs actual for test set, and latest prediction
+- Optional auto-refresh loop for live monitoring
 
 ### Real-Time Simulation
 
 The run_realtime() method:
 
-· Fetches new data every refresh_interval seconds
-· Retrains the model on the extended dataset (incremental learning can be added)
-· Outputs the latest price and next-day prediction
+- Fetches new data every refresh_interval seconds
+- Retrains the model on the extended dataset (incremental learning can be added)
+- Outputs the latest price and next-day prediction
 
 Note: Free Yahoo Finance data has ~15 min delay. For true real-time (seconds), consider Alpha Vantage or WebSocket APIs.
 
