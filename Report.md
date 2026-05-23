@@ -1,9 +1,9 @@
 ### Project Overview
 
-· Data Source: Yahoo Finance (via yfinance)
-· Prediction Model: LSTM (Long Short-Term Memory) neural network
-· Visualization: Plotly interactive charts
-· Real-Time Simulation: Loop that fetches latest data every 60 seconds and updates predictions
+- Data Source: Yahoo Finance (via yfinance)
+- Prediction Model: LSTM (Long Short-Term Memory) neural network
+- Visualization: Plotly interactive charts
+- Real-Time Simulation: Loop that fetches latest data every 60 seconds and updates predictions
 
 ### Features
 
