@@ -70,5 +70,5 @@ RMSE: $16.32
 Next Trading Day Prediction for AAPL: $290.61
 
 ```
-<img width="1306" height="651" alt="Result Graph Data Visualisation 2" src="https://github.com/user-attachments/assets/e62656c1-270b-47fe-bb1f-ac6265ad7a8b" />
+<img width="1000" height="500" alt="Result Graph Data Visualisation 2" src="https://github.com/user-attachments/assets/e62656c1-270b-47fe-bb1f-ac6265ad7a8b" />
 
