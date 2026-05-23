@@ -10,7 +10,7 @@
 ### Data Visualisation(Graph)
 http://127.0.0.1:34055/
 
-<img width="700" height="350" alt="Screenshot 2026-05-23 22 49 03" src="https://github.com/user-attachments/assets/e8da72a7-5c98-4edc-98f8-9eaa3d18d790" />
+<img width="900" height="400" alt="Screenshot 2026-05-23 22 49 03" src="https://github.com/user-attachments/assets/e8da72a7-5c98-4edc-98f8-9eaa3d18d790" />
 
 ### Model Performance on Test Set:
 - MAE: $16.76
