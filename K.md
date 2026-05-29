@@ -1,6 +1,4 @@
-<style>
-  body {
-    background-color: #90EE90; /* Light Green Hex Code */
+<div style="background-color: rgb(50, 50, 50);">
 
 # Kanishk Kumar
 
@@ -128,5 +126,4 @@ Modeling, A/B Testing.
 - English
 - Hindi
 
-  }
-</style>
+</div>
